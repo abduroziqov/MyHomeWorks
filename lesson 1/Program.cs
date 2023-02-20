@@ -1,13 +1,18 @@
-﻿namespace lesson_1
+﻿using System.Net.Security;
+
+namespace lesson_1
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
-            Console.WriteLine("Bu mening C# dagi boshlang'ich darslarim hisoblanadi.");
-            Console.WriteLine("Davom etish uchun xohlagan tugmani bosing... ");
-            Console.ReadLine();
+
+            string myName;
+            System.Console.Write("Enter your name: ");
+            myName = Console.ReadLine();
+
+            Console.WriteLine($"Hello, {myName}!");
+
 
         }
     }
