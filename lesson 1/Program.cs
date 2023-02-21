@@ -1,4 +1,5 @@
 ﻿using System.Net.Security;
+using System.Runtime.CompilerServices;
 
 namespace lesson_1
 {
@@ -7,11 +8,16 @@ namespace lesson_1
         static void Main(string[] args)
         {
 
-            string myName;
-            System.Console.Write("Enter your name: ");
-            myName = Console.ReadLine();
-
-            Console.WriteLine($"Hello, {myName}!");
+            int a = 11;
+            int b = 12;
+            System.Console.WriteLine(">");
+            System.Console.WriteLine(a > b);
+            System.Console.WriteLine("<");
+            System.Console.WriteLine(a < b);
+            System.Console.WriteLine("==");
+            System.Console.WriteLine(a==b);
+            System.Console.WriteLine("!=");
+            System.Console.WriteLine(a!=b);
 
 
         }
